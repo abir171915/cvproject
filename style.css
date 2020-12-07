@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rebeccapurple;
+    font-family: 'Nerko One', cursive;
+}
+.container{
+    max-width: 1000px;
+    
+    background-color: purple;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;;
+}
+h1,h2,h3{
+    color: yellowgreen;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: yellowgreen;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid white 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.hero{
+    width: 120px;
+    height: 100px;
+    border: 3px solid peachpuff;
+    margin: 20px;
+}
+.hero-left{
+    width 70%;
+    float: left;
+}
+.hero-right{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+.bottom-container a{
+    color: peachpuff;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    max-top: top 20px; ;
+}
